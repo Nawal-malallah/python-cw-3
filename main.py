@@ -1,8 +1,8 @@
 # write your code here
-favAni = ["cat" , "dog" , "shark" , "sneak"]
+favAni = ["dog" , "cat" , "monkey" , "rabbit"]
 print(favAni)
 print(favAni[1])
-favAni.remove("shark")
+favAni.remove("monkey")
 favAni.append("fish")
 
 for n in favAni:
@@ -12,4 +12,6 @@ numbers = [1 , 2 , 3 , 4 , 5]
 numbers_sum = 0
 
 for num in numbers:
-    
+    numbers_sum += num
+
+print(numbers_sum)
